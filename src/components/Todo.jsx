@@ -86,15 +86,6 @@ function Todo() {
     handleClose();
   }
 
-  function handleInput(e) {
-    setTodoInput(e.target.value);
-    if (e.target.value === null || e.target.value === "") {
-      setTodoError(true);
-    } else {
-      setTodoError(false);
-    }
-  }
-
   return (
     <>
       <Box sx={{ margin: "20px" }}>

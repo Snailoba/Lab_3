@@ -22,14 +22,14 @@ function TodoPage() {
       </Box>
       <Box
         sx={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          borderRadius: "20px",
           backgroundColor: "#a08bff",
-          margin: { md: "20px" },
-          height: { xs: "90%", md: "604px" },
+          hegiht: { xs: "90%", md: "604px" },
           width: { xs: "100%", md: "580px" },
+          margin: { md: "20px" },
+          borderRadius: "20px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
         <Todo />
